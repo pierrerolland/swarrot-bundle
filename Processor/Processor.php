@@ -8,9 +8,9 @@ use Symfony\Component\Serializer\Encoder\JsonEncoder;
 use TheFork\SwarrotBundle\Model\EaterInterface;
 
 /**
- * Sponsorship Swarrot Processor
+ * Swarrot Processor
  */
-class SwarrotProcessor implements ProcessorInterface
+class Processor implements ProcessorInterface
 {
     /**
      * @var JsonEncoder

@@ -1,5 +1,5 @@
 services:
     thefork_swarrot.processor:
-        class: TheFork\SwarrotBundle\Processor\SwarrotProcessor
+        class: TheFork\SwarrotBundle\Processor\Processor
         arguments:
             - "@serializer.encoder.json"
