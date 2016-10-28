@@ -1,0 +1,23 @@
+{
+    "name": "the-fork/swarrot-bundle",
+    "description": "Eases Swarrot consumption",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": {
+            "TheFork\\SwarrotBundle\\": ""
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "symfony/symfony": ">=2.8",
+        "swarrot/swarrot": "^2.2"
+    },
+    "authors": [
+        {
+            "name": "Pierre Rolland",
+            "email": "prolland@lafourchette.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
